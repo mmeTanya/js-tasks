@@ -12,6 +12,9 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+ul{
+  list-style-type: none;
+}
 
 input {
   padding: 8px;
@@ -22,3 +25,13 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+.gallery{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+  color: goldenrod
+}
+
+
